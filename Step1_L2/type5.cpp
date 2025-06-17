@@ -154,8 +154,10 @@ void pattern22(int n) {
 
     for (int i = 1; i <= 2 * n - 1; i++) {
         for (int j = 1; j <= 2 * n - 1; j++) {
-            int top = i-1, left = j-1;
-            int right = (2 * n - 1 - j), bottom = (2 * n - 1 - i);
+            int top = i-1;
+            int left = j-1;
+            int right = (2 * n - 1 - j);
+            int bottom = (2 * n - 1 - i);
             cout << n-min({ top, left, right, bottom }) << " ";
         }
         cout << endl;

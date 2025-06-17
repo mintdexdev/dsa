@@ -1,11 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//Vectors
-//Vectors are dynamic arrays that can grow or shrink in size
-
-//main function
 int main() {
+
+/* 
+Vectors
+Vectors are dynamic arrays that can grow or shrink in size
+*/
 
     vector<int> v;
     v.push_back(1),v.emplace_back(2);
@@ -32,19 +33,20 @@ int main() {
     //vector<int> copy(2,6,8);
     // v.insert(v.begin(), copy.begin(), copy.end());
 
-    //v.pop_back();
-    //v.size();
-    //v.clear();
-    //v.empty();
-    //v.swap(v2);
-    //v.front();    
-    //v.back();
-    //v.begin();
-    //v.end();
-    //v.rbegin();
-    //v.rend();
-    //v.at(index);
+/*
+v.pop_back();
+v.size();
+v.clear();
+v.empty();
+v.swap(v2);
+v.front();    
+v.back();
+v.begin();
+v.end();
+v.rbegin();
+v.rend();
+v.at(index);
+*/
+
     return 0;
 }
-
-

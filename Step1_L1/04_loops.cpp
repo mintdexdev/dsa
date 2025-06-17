@@ -9,13 +9,13 @@ using namespace std;
 
 int main() {
 
-    //for loop
+    /* for loop */
     // for (int i1 = 1; i1 <=10; i1++) {
     //     cout << i1 << endl;
     // }
 
 
-    //while loop
+    /* while loop */
     // int i2 = 1;
     // while (i2 <= 10) {
     //     cout << i2 << endl;
@@ -23,7 +23,7 @@ int main() {
     // }
 
 
-    //do while loop
+    /* do while loop */
     //at least one time loop
 
     // int i3 = 2;
@@ -32,7 +32,7 @@ int main() {
     //     i3++;
     // } while (i3 <= 1);
 
-    //normal loop
+    //do while loop
     // int i3 = 1;
     // do {
     //     cout << i3 << endl;
